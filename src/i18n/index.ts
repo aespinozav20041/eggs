@@ -8,7 +8,20 @@ const resources = {
       hello: 'Hello World',
       changeTheme: 'Change Theme',
       changeLang: 'Change Language',
+
+      loading: 'Loading...',
+      email: 'Email',
+      password: 'Password',
+      login: 'Login',
+      register: 'Register',
+      logout: 'Logout',
+      forgot: 'Forgot Password?',
+      send: 'Send',
+      verify: 'Verify your email',
+      resend: 'Resend Email',
+
       loading: 'Loading...'
+
     },
   },
   es: {
@@ -16,6 +29,18 @@ const resources = {
       hello: 'Hola Mundo',
       changeTheme: 'Cambiar Tema',
       changeLang: 'Cambiar Idioma',
+
+      loading: 'Cargando...',
+      email: 'Correo',
+      password: 'Contraseña',
+      login: 'Iniciar sesión',
+      register: 'Registrarse',
+      logout: 'Cerrar sesión',
+      forgot: '¿Olvidaste tu contraseña?',
+      send: 'Enviar',
+      verify: 'Verifica tu correo',
+      resend: 'Reenviar correo',
+
       loading: 'Cargando...'
     },
   },
