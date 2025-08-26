@@ -18,4 +18,10 @@ npm run dev:android # start Android emulator
 
 ## Environment
 
+Copy `.env.example` to `.env` and adjust values like:
+
+```
+EXPO_PUBLIC_API_URL=https://example.com/api
+```
+
 Copy `.env.example` to `.env` and adjust values.
