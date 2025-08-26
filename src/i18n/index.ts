@@ -8,6 +8,7 @@ const resources = {
       hello: 'Hello World',
       changeTheme: 'Change Theme',
       changeLang: 'Change Language',
+
       loading: 'Loading...',
       email: 'Email',
       password: 'Password',
@@ -18,6 +19,9 @@ const resources = {
       send: 'Send',
       verify: 'Verify your email',
       resend: 'Resend Email',
+
+      loading: 'Loading...'
+
     },
   },
   es: {
@@ -25,6 +29,7 @@ const resources = {
       hello: 'Hola Mundo',
       changeTheme: 'Cambiar Tema',
       changeLang: 'Cambiar Idioma',
+
       loading: 'Cargando...',
       email: 'Correo',
       password: 'Contraseña',
@@ -35,6 +40,8 @@ const resources = {
       send: 'Enviar',
       verify: 'Verifica tu correo',
       resend: 'Reenviar correo',
+
+      loading: 'Cargando...'
     },
   },
 };

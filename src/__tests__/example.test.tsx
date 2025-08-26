@@ -7,6 +7,7 @@ jest.mock('../lib/api', () => ({
   handleApiError: jest.fn(),
 }));
 
+
 jest.mock('../providers/AuthProvider', () => ({
   AuthProvider: ({ children }: { children: React.ReactNode }) => <>{children}</>,
   useAuth: () => ({ user: { emailVerified: true }, initializing: false }),
@@ -17,6 +18,7 @@ jest.mock('../screens/RegisterScreen', () => () => null);
 jest.mock('../screens/ForgotPasswordScreen', () => () => null);
 jest.mock('../screens/VerificationScreen', () => () => null);
 
+
 import App from '../../App';
 import '../i18n';
 import { queryClient } from '../providers/AppProviders';
@@ -24,6 +26,11 @@ import { queryClient } from '../providers/AppProviders';
 afterAll(() => {
   queryClient.clear();
 });
+
+
+
+import App from '../../App';
+import '../i18n';
 
 test('renders greeting', () => {
   const { getByText } = render(<App />);
