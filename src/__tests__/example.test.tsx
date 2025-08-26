@@ -15,6 +15,9 @@ afterAll(() => {
   queryClient.clear();
 });
 
+
+import App from '../../App';
+import '../i18n';
 test('renders greeting', () => {
   const { getByText } = render(<App />);
   expect(getByText(/Hello World|Hola Mundo/)).toBeTruthy();
